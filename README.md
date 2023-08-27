@@ -4,7 +4,9 @@
 ```shell
 GOOS=linux GOARCH=amd64 go build msk.go
 # 编译好的
-https://dxs9dnjebzm6y.cloudfront.net/tmp/msk
+wget https://dxs9dnjebzm6y.cloudfront.net/tmp/msk-amd64
+mv msk-amd64 msk
+chmod u+x msk
 ```
 ### producer
 ```shell
